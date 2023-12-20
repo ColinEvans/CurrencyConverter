@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394D6E922B2AC9960041B56E /* PayPayCodingChallenge_ColinEvansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6E912B2AC9960041B56E /* PayPayCodingChallenge_ColinEvansApp.swift */; };
+		394D6E942B2AC9960041B56E /* UserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6E932B2AC9960041B56E /* UserInputView.swift */; };
+		394D6E962B2AC9980041B56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394D6E952B2AC9980041B56E /* Assets.xcassets */; };
+		394D6E992B2AC9980041B56E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394D6E982B2AC9980041B56E /* Preview Assets.xcassets */; };
+		394D6EA12B2AD12F0041B56E /* AppID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EA02B2AD12F0041B56E /* AppID.swift */; };
+		394D6EB32B2B9FAE0041B56E /* AppIDProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EB22B2B9FAE0041B56E /* AppIDProvider.swift */; };
+		394D6EB52B2BA1810041B56E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EB42B2BA1810041B56E /* Currency.swift */; };
+		394D6EBA2B2BA5920041B56E /* UserInputViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EB92B2BA5920041B56E /* UserInputViewModel.swift */; };
+		394D6EC12B2BC76F0041B56E /* String_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EC02B2BC76F0041B56E /* String_Extensions.swift */; };
+		394D6EC32B2BC89B0041B56E /* StringIsValidNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EC22B2BC89B0041B56E /* StringIsValidNumberTests.swift */; };
+		394D6EC92B2BEA2D0041B56E /* Color_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EC82B2BEA2D0041B56E /* Color_Extensions.swift */; };
+		394D6ECD2B2BF8FD0041B56E /* CurrencyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6ECC2B2BF8FD0041B56E /* CurrencyPicker.swift */; };
+		394D6ED02B2BFBA00041B56E /* HTTPRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6ECF2B2BFBA00041B56E /* HTTPRequestProvider.swift */; };
+		394D6ED22B2BFBB30041B56E /* HTTPRequestProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6ED12B2BFBB30041B56E /* HTTPRequestProviding.swift */; };
+		394D6ED42B2BFEDF0041B56E /* HTTPRequestFetchingActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6ED32B2BFEDF0041B56E /* HTTPRequestFetchingActor.swift */; };
+		394D6EE02B2C107C0041B56E /* HTTPRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EDF2B2C107C0041B56E /* HTTPRequestError.swift */; };
+		394D6EE22B2C11F70041B56E /* URLSession_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EE12B2C11F70041B56E /* URLSession_Extensions.swift */; };
+		394D6EE42B2C13350041B56E /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D6EE32B2C13350041B56E /* Resource.swift */; };
+		39F753822B2D2284005BCE86 /* AvailableCurrenciesProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753812B2D2284005BCE86 /* AvailableCurrenciesProviding.swift */; };
+		39F753842B2D23D7005BCE86 /* AvailableCurrenciesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753832B2D23D7005BCE86 /* AvailableCurrenciesProvider.swift */; };
+		39F753862B2D2EE5005BCE86 /* CurrencyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753852B2D2EE5005BCE86 /* CurrencyError.swift */; };
+		39F753882B2D3E00005BCE86 /* CurrencyPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753872B2D3E00005BCE86 /* CurrencyPickerViewModel.swift */; };
+		39F7538B2B2D41D6005BCE86 /* AvailableCurrenciesProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7538A2B2D41D6005BCE86 /* AvailableCurrenciesProviderMock.swift */; };
+		39F7538D2B2D4547005BCE86 /* MockCurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7538C2B2D4547005BCE86 /* MockCurrencies.swift */; };
+		39F7538F2B2D53CD005BCE86 /* PayPayCodingChallengeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7538E2B2D53CD005BCE86 /* PayPayCodingChallengeAssembly.swift */; };
+		39F753912B2D5AB3005BCE86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753902B2D5AB3005BCE86 /* ContentView.swift */; };
+		39F753932B2D5CC2005BCE86 /* HTTPRequestProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753922B2D5CC2005BCE86 /* HTTPRequestProviderMock.swift */; };
+		39F753952B2D5DB4005BCE86 /* PayPayCodingChallengeAssembling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753942B2D5DB4005BCE86 /* PayPayCodingChallengeAssembling.swift */; };
+		39F753972B2D5EF9005BCE86 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753962B2D5EF9005BCE86 /* ContentViewModel.swift */; };
+		39F753992B2D708F005BCE86 /* ConversionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753982B2D708F005BCE86 /* ConversionListView.swift */; };
+		39F7539B2B2D70B8005BCE86 /* ConversionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7539A2B2D70B8005BCE86 /* ConversionListViewModel.swift */; };
+		39F753A02B2D735B005BCE86 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F7539F2B2D735B005BCE86 /* CurrencyConverter.swift */; };
+		39F753A22B2D7449005BCE86 /* ConvertedCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753A12B2D7449005BCE86 /* ConvertedCurrency.swift */; };
+		39F753A42B2E287B005BCE86 /* ActiveCurrencyValueProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753A32B2E287B005BCE86 /* ActiveCurrencyValueProviding.swift */; };
+		39F753A62B2E295F005BCE86 /* CurrencyToConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753A52B2E295F005BCE86 /* CurrencyToConvert.swift */; };
+		39F753A82B2E2A7C005BCE86 /* SelectedCurrecnyConverterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753A72B2E2A7C005BCE86 /* SelectedCurrecnyConverterMock.swift */; };
+		39F753AB2B2E34FD005BCE86 /* CurrencyInputModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753AA2B2E34FD005BCE86 /* CurrencyInputModifier.swift */; };
+		39F753AF2B2E3990005BCE86 /* SelectedCurrencyProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753AE2B2E3990005BCE86 /* SelectedCurrencyProviding.swift */; };
+		39F753B12B2E62B7005BCE86 /* CurrencyRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753B02B2E62B7005BCE86 /* CurrencyRates.swift */; };
+		39F753B32B2E873F005BCE86 /* ConvertedValueListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753B22B2E873F005BCE86 /* ConvertedValueListRow.swift */; };
+		39F753B52B2E8F79005BCE86 /* View_CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753B42B2E8F79005BCE86 /* View_CornerRadius.swift */; };
+		39F753B72B2EAC1B005BCE86 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753B62B2EAC1B005BCE86 /* RefreshButton.swift */; };
+		39F753BB2B2FB7E0005BCE86 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753BA2B2FB7E0005BCE86 /* CurrencyConverterTests.swift */; };
+		39F753BD2B2FD3A0005BCE86 /* URLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753BC2B2FD3A0005BCE86 /* URLSessionTests.swift */; };
+		39F753C02B2FD4A4005BCE86 /* Mocker in Frameworks */ = {isa = PBXBuildFile; productRef = 39F753BF2B2FD4A4005BCE86 /* Mocker */; };
+		39F753C22B2FE534005BCE86 /* CurrencyRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753C12B2FE534005BCE86 /* CurrencyRatesTests.swift */; };
+		39F753C42B2FEFAA005BCE86 /* AvailableCurrenciesProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753C32B2FEFAA005BCE86 /* AvailableCurrenciesProviderTests.swift */; };
+		39F753C62B30060B005BCE86 /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753C52B30060B005BCE86 /* ContentViewModelTests.swift */; };
+		39F753C82B30074A005BCE86 /* ActiveCurrencyValueProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F753C72B300749005BCE86 /* ActiveCurrencyValueProviderMock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		394D6EAC2B2B8D2E0041B56E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394D6E862B2AC9960041B56E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394D6E8D2B2AC9960041B56E;
+			remoteInfo = PayPayCodingChallenge_ColinEvans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394D6E8E2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPayCodingChallenge_ColinEvans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D6E912B2AC9960041B56E /* PayPayCodingChallenge_ColinEvansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCodingChallenge_ColinEvansApp.swift; sourceTree = "<group>"; };
+		394D6E932B2AC9960041B56E /* UserInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputView.swift; sourceTree = "<group>"; };
+		394D6E952B2AC9980041B56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394D6E982B2AC9980041B56E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		394D6EA02B2AD12F0041B56E /* AppID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppID.swift; sourceTree = "<group>"; };
+		394D6EA22B2B87C70041B56E /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		394D6EA32B2B898C0041B56E /* PayPayCodingChallenge-ColinEvans-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PayPayCodingChallenge-ColinEvans-Info.plist"; sourceTree = SOURCE_ROOT; };
+		394D6EA82B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPayCodingChallenge_ColinEvansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394D6EB22B2B9FAE0041B56E /* AppIDProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIDProvider.swift; sourceTree = "<group>"; };
+		394D6EB42B2BA1810041B56E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		394D6EB92B2BA5920041B56E /* UserInputViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputViewModel.swift; sourceTree = "<group>"; };
+		394D6EC02B2BC76F0041B56E /* String_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_Extensions.swift; sourceTree = "<group>"; };
+		394D6EC22B2BC89B0041B56E /* StringIsValidNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIsValidNumberTests.swift; sourceTree = "<group>"; };
+		394D6EC82B2BEA2D0041B56E /* Color_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Extensions.swift; sourceTree = "<group>"; };
+		394D6ECC2B2BF8FD0041B56E /* CurrencyPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPicker.swift; sourceTree = "<group>"; };
+		394D6ECF2B2BFBA00041B56E /* HTTPRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestProvider.swift; sourceTree = "<group>"; };
+		394D6ED12B2BFBB30041B56E /* HTTPRequestProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestProviding.swift; sourceTree = "<group>"; };
+		394D6ED32B2BFEDF0041B56E /* HTTPRequestFetchingActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestFetchingActor.swift; sourceTree = "<group>"; };
+		394D6EDF2B2C107C0041B56E /* HTTPRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestError.swift; sourceTree = "<group>"; };
+		394D6EE12B2C11F70041B56E /* URLSession_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_Extensions.swift; sourceTree = "<group>"; };
+		394D6EE32B2C13350041B56E /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		39F753812B2D2284005BCE86 /* AvailableCurrenciesProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesProviding.swift; sourceTree = "<group>"; };
+		39F753832B2D23D7005BCE86 /* AvailableCurrenciesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesProvider.swift; sourceTree = "<group>"; };
+		39F753852B2D2EE5005BCE86 /* CurrencyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyError.swift; sourceTree = "<group>"; };
+		39F753872B2D3E00005BCE86 /* CurrencyPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerViewModel.swift; sourceTree = "<group>"; };
+		39F7538A2B2D41D6005BCE86 /* AvailableCurrenciesProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesProviderMock.swift; sourceTree = "<group>"; };
+		39F7538C2B2D4547005BCE86 /* MockCurrencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCurrencies.swift; sourceTree = "<group>"; };
+		39F7538E2B2D53CD005BCE86 /* PayPayCodingChallengeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCodingChallengeAssembly.swift; sourceTree = "<group>"; };
+		39F753902B2D5AB3005BCE86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39F753922B2D5CC2005BCE86 /* HTTPRequestProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestProviderMock.swift; sourceTree = "<group>"; };
+		39F753942B2D5DB4005BCE86 /* PayPayCodingChallengeAssembling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPayCodingChallengeAssembling.swift; sourceTree = "<group>"; };
+		39F753962B2D5EF9005BCE86 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		39F753982B2D708F005BCE86 /* ConversionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionListView.swift; sourceTree = "<group>"; };
+		39F7539A2B2D70B8005BCE86 /* ConversionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionListViewModel.swift; sourceTree = "<group>"; };
+		39F7539F2B2D735B005BCE86 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		39F753A12B2D7449005BCE86 /* ConvertedCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertedCurrency.swift; sourceTree = "<group>"; };
+		39F753A32B2E287B005BCE86 /* ActiveCurrencyValueProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCurrencyValueProviding.swift; sourceTree = "<group>"; };
+		39F753A52B2E295F005BCE86 /* CurrencyToConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyToConvert.swift; sourceTree = "<group>"; };
+		39F753A72B2E2A7C005BCE86 /* SelectedCurrecnyConverterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCurrecnyConverterMock.swift; sourceTree = "<group>"; };
+		39F753AA2B2E34FD005BCE86 /* CurrencyInputModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyInputModifier.swift; sourceTree = "<group>"; };
+		39F753AE2B2E3990005BCE86 /* SelectedCurrencyProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCurrencyProviding.swift; sourceTree = "<group>"; };
+		39F753B02B2E62B7005BCE86 /* CurrencyRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRates.swift; sourceTree = "<group>"; };
+		39F753B22B2E873F005BCE86 /* ConvertedValueListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertedValueListRow.swift; sourceTree = "<group>"; };
+		39F753B42B2E8F79005BCE86 /* View_CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_CornerRadius.swift; sourceTree = "<group>"; };
+		39F753B62B2EAC1B005BCE86 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		39F753BA2B2FB7E0005BCE86 /* CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTests.swift; sourceTree = "<group>"; };
+		39F753BC2B2FD3A0005BCE86 /* URLSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionTests.swift; sourceTree = "<group>"; };
+		39F753C12B2FE534005BCE86 /* CurrencyRatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesTests.swift; sourceTree = "<group>"; };
+		39F753C32B2FEFAA005BCE86 /* AvailableCurrenciesProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableCurrenciesProviderTests.swift; sourceTree = "<group>"; };
+		39F753C52B30060B005BCE86 /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
+		39F753C72B300749005BCE86 /* ActiveCurrencyValueProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCurrencyValueProviderMock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394D6E8B2B2AC9960041B56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D6EA52B2B8D2E0041B56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F753C02B2FD4A4005BCE86 /* Mocker in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394D6E852B2AC9960041B56E = {
+			isa = PBXGroup;
+			children = (
+				394D6EA22B2B87C70041B56E /* Development.xcconfig */,
+				394D6E902B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans */,
+				394D6EA92B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests */,
+				394D6E8F2B2AC9960041B56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394D6E8F2B2AC9960041B56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394D6E8E2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans.app */,
+				394D6EA82B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394D6E902B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans */ = {
+			isa = PBXGroup;
+			children = (
+				394D6EA32B2B898C0041B56E /* PayPayCodingChallenge-ColinEvans-Info.plist */,
+				39F7539C2B2D7172005BCE86 /* Calculations */,
+				394D6E9F2B2AD11B0041B56E /* Data */,
+				39F753892B2D41BA005BCE86 /* Mocks */,
+				394D6ECE2B2BFB6D0041B56E /* Networking */,
+				394D6EB62B2BA1BE0041B56E /* Presentation */,
+				394D6E912B2AC9960041B56E /* PayPayCodingChallenge_ColinEvansApp.swift */,
+				39F7538E2B2D53CD005BCE86 /* PayPayCodingChallengeAssembly.swift */,
+				39F753942B2D5DB4005BCE86 /* PayPayCodingChallengeAssembling.swift */,
+				394D6E952B2AC9980041B56E /* Assets.xcassets */,
+				394D6E972B2AC9980041B56E /* Preview Content */,
+			);
+			path = PayPayCodingChallenge_ColinEvans;
+			sourceTree = "<group>";
+		};
+		394D6E972B2AC9980041B56E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				394D6E982B2AC9980041B56E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		394D6E9F2B2AD11B0041B56E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				394D6EA02B2AD12F0041B56E /* AppID.swift */,
+				394D6EB22B2B9FAE0041B56E /* AppIDProvider.swift */,
+				39F753812B2D2284005BCE86 /* AvailableCurrenciesProviding.swift */,
+				39F753832B2D23D7005BCE86 /* AvailableCurrenciesProvider.swift */,
+				394D6EB42B2BA1810041B56E /* Currency.swift */,
+				39F753A12B2D7449005BCE86 /* ConvertedCurrency.swift */,
+				39F753852B2D2EE5005BCE86 /* CurrencyError.swift */,
+				39F753B02B2E62B7005BCE86 /* CurrencyRates.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		394D6EA92B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F753C32B2FEFAA005BCE86 /* AvailableCurrenciesProviderTests.swift */,
+				39F753C52B30060B005BCE86 /* ContentViewModelTests.swift */,
+				39F753BA2B2FB7E0005BCE86 /* CurrencyConverterTests.swift */,
+				39F753C12B2FE534005BCE86 /* CurrencyRatesTests.swift */,
+				394D6EC22B2BC89B0041B56E /* StringIsValidNumberTests.swift */,
+				39F753BC2B2FD3A0005BCE86 /* URLSessionTests.swift */,
+			);
+			path = PayPayCodingChallenge_ColinEvansTests;
+			sourceTree = "<group>";
+		};
+		394D6EB62B2BA1BE0041B56E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				39F753AD2B2E3693005BCE86 /* ConversionList */,
+				39F753AC2B2E3639005BCE86 /* CurrencyPicker */,
+				39F753A92B2E34D2005BCE86 /* UserInput */,
+				394D6EBF2B2BC75B0041B56E /* Utilities */,
+				39F753902B2D5AB3005BCE86 /* ContentView.swift */,
+				39F753962B2D5EF9005BCE86 /* ContentViewModel.swift */,
+				39F753B62B2EAC1B005BCE86 /* RefreshButton.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		394D6EBF2B2BC75B0041B56E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				39F753A32B2E287B005BCE86 /* ActiveCurrencyValueProviding.swift */,
+				39F753AE2B2E3990005BCE86 /* SelectedCurrencyProviding.swift */,
+				39F753A52B2E295F005BCE86 /* CurrencyToConvert.swift */,
+				394D6EC82B2BEA2D0041B56E /* Color_Extensions.swift */,
+				394D6EC02B2BC76F0041B56E /* String_Extensions.swift */,
+				39F753B42B2E8F79005BCE86 /* View_CornerRadius.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		394D6ECE2B2BFB6D0041B56E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				394D6EDF2B2C107C0041B56E /* HTTPRequestError.swift */,
+				394D6ECF2B2BFBA00041B56E /* HTTPRequestProvider.swift */,
+				394D6ED12B2BFBB30041B56E /* HTTPRequestProviding.swift */,
+				394D6ED32B2BFEDF0041B56E /* HTTPRequestFetchingActor.swift */,
+				394D6EE12B2C11F70041B56E /* URLSession_Extensions.swift */,
+				394D6EE32B2C13350041B56E /* Resource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		39F753892B2D41BA005BCE86 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				39F753C72B300749005BCE86 /* ActiveCurrencyValueProviderMock.swift */,
+				39F7538A2B2D41D6005BCE86 /* AvailableCurrenciesProviderMock.swift */,
+				39F753922B2D5CC2005BCE86 /* HTTPRequestProviderMock.swift */,
+				39F7538C2B2D4547005BCE86 /* MockCurrencies.swift */,
+				39F753A72B2E2A7C005BCE86 /* SelectedCurrecnyConverterMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		39F7539C2B2D7172005BCE86 /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				39F7539F2B2D735B005BCE86 /* CurrencyConverter.swift */,
+			);
+			path = Calculations;
+			sourceTree = "<group>";
+		};
+		39F753A92B2E34D2005BCE86 /* UserInput */ = {
+			isa = PBXGroup;
+			children = (
+				394D6E932B2AC9960041B56E /* UserInputView.swift */,
+				394D6EB92B2BA5920041B56E /* UserInputViewModel.swift */,
+				39F753AA2B2E34FD005BCE86 /* CurrencyInputModifier.swift */,
+			);
+			path = UserInput;
+			sourceTree = "<group>";
+		};
+		39F753AC2B2E3639005BCE86 /* CurrencyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				394D6ECC2B2BF8FD0041B56E /* CurrencyPicker.swift */,
+				39F753872B2D3E00005BCE86 /* CurrencyPickerViewModel.swift */,
+			);
+			path = CurrencyPicker;
+			sourceTree = "<group>";
+		};
+		39F753AD2B2E3693005BCE86 /* ConversionList */ = {
+			isa = PBXGroup;
+			children = (
+				39F753982B2D708F005BCE86 /* ConversionListView.swift */,
+				39F7539A2B2D70B8005BCE86 /* ConversionListViewModel.swift */,
+				39F753B22B2E873F005BCE86 /* ConvertedValueListRow.swift */,
+			);
+			path = ConversionList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394D6E8D2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394D6E9C2B2AC9980041B56E /* Build configuration list for PBXNativeTarget "PayPayCodingChallenge_ColinEvans" */;
+			buildPhases = (
+				394D6E8A2B2AC9960041B56E /* Sources */,
+				394D6E8B2B2AC9960041B56E /* Frameworks */,
+				394D6E8C2B2AC9960041B56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPayCodingChallenge_ColinEvans;
+			productName = PayPayCodingChallenge_ColinEvans;
+			productReference = 394D6E8E2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394D6EA72B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394D6EAE2B2B8D2E0041B56E /* Build configuration list for PBXNativeTarget "PayPayCodingChallenge_ColinEvansTests" */;
+			buildPhases = (
+				394D6EA42B2B8D2E0041B56E /* Sources */,
+				394D6EA52B2B8D2E0041B56E /* Frameworks */,
+				394D6EA62B2B8D2E0041B56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394D6EAD2B2B8D2E0041B56E /* PBXTargetDependency */,
+			);
+			name = PayPayCodingChallenge_ColinEvansTests;
+			packageProductDependencies = (
+				39F753BF2B2FD4A4005BCE86 /* Mocker */,
+			);
+			productName = PayPayCodingChallenge_ColinEvansTests;
+			productReference = 394D6EA82B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394D6E862B2AC9960041B56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					394D6E8D2B2AC9960041B56E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					394D6EA72B2B8D2E0041B56E = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 394D6E8D2B2AC9960041B56E;
+					};
+				};
+			};
+			buildConfigurationList = 394D6E892B2AC9960041B56E /* Build configuration list for PBXProject "PayPayCodingChallenge_ColinEvans" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394D6E852B2AC9960041B56E;
+			packageReferences = (
+				39F753BE2B2FD4A4005BCE86 /* XCRemoteSwiftPackageReference "Mocker" */,
+			);
+			productRefGroup = 394D6E8F2B2AC9960041B56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394D6E8D2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans */,
+				394D6EA72B2B8D2E0041B56E /* PayPayCodingChallenge_ColinEvansTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394D6E8C2B2AC9960041B56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D6E992B2AC9980041B56E /* Preview Assets.xcassets in Resources */,
+				394D6E962B2AC9980041B56E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D6EA62B2B8D2E0041B56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394D6E8A2B2AC9960041B56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394D6EA12B2AD12F0041B56E /* AppID.swift in Sources */,
+				39F753912B2D5AB3005BCE86 /* ContentView.swift in Sources */,
+				39F7539B2B2D70B8005BCE86 /* ConversionListViewModel.swift in Sources */,
+				39F753882B2D3E00005BCE86 /* CurrencyPickerViewModel.swift in Sources */,
+				394D6EC12B2BC76F0041B56E /* String_Extensions.swift in Sources */,
+				39F753B52B2E8F79005BCE86 /* View_CornerRadius.swift in Sources */,
+				39F7538B2B2D41D6005BCE86 /* AvailableCurrenciesProviderMock.swift in Sources */,
+				394D6EB52B2BA1810041B56E /* Currency.swift in Sources */,
+				39F753A22B2D7449005BCE86 /* ConvertedCurrency.swift in Sources */,
+				39F753932B2D5CC2005BCE86 /* HTTPRequestProviderMock.swift in Sources */,
+				39F753842B2D23D7005BCE86 /* AvailableCurrenciesProvider.swift in Sources */,
+				394D6ED22B2BFBB30041B56E /* HTTPRequestProviding.swift in Sources */,
+				39F753A82B2E2A7C005BCE86 /* SelectedCurrecnyConverterMock.swift in Sources */,
+				394D6EBA2B2BA5920041B56E /* UserInputViewModel.swift in Sources */,
+				39F753C82B30074A005BCE86 /* ActiveCurrencyValueProviderMock.swift in Sources */,
+				394D6ED42B2BFEDF0041B56E /* HTTPRequestFetchingActor.swift in Sources */,
+				39F753AB2B2E34FD005BCE86 /* CurrencyInputModifier.swift in Sources */,
+				39F753B32B2E873F005BCE86 /* ConvertedValueListRow.swift in Sources */,
+				39F753B72B2EAC1B005BCE86 /* RefreshButton.swift in Sources */,
+				394D6ED02B2BFBA00041B56E /* HTTPRequestProvider.swift in Sources */,
+				394D6E942B2AC9960041B56E /* UserInputView.swift in Sources */,
+				39F7538D2B2D4547005BCE86 /* MockCurrencies.swift in Sources */,
+				39F753B12B2E62B7005BCE86 /* CurrencyRates.swift in Sources */,
+				394D6EE22B2C11F70041B56E /* URLSession_Extensions.swift in Sources */,
+				394D6ECD2B2BF8FD0041B56E /* CurrencyPicker.swift in Sources */,
+				39F753AF2B2E3990005BCE86 /* SelectedCurrencyProviding.swift in Sources */,
+				39F753952B2D5DB4005BCE86 /* PayPayCodingChallengeAssembling.swift in Sources */,
+				39F753992B2D708F005BCE86 /* ConversionListView.swift in Sources */,
+				39F753A42B2E287B005BCE86 /* ActiveCurrencyValueProviding.swift in Sources */,
+				39F753A02B2D735B005BCE86 /* CurrencyConverter.swift in Sources */,
+				394D6E922B2AC9960041B56E /* PayPayCodingChallenge_ColinEvansApp.swift in Sources */,
+				39F7538F2B2D53CD005BCE86 /* PayPayCodingChallengeAssembly.swift in Sources */,
+				394D6EE42B2C13350041B56E /* Resource.swift in Sources */,
+				394D6EE02B2C107C0041B56E /* HTTPRequestError.swift in Sources */,
+				39F753822B2D2284005BCE86 /* AvailableCurrenciesProviding.swift in Sources */,
+				39F753972B2D5EF9005BCE86 /* ContentViewModel.swift in Sources */,
+				394D6EB32B2B9FAE0041B56E /* AppIDProvider.swift in Sources */,
+				394D6EC92B2BEA2D0041B56E /* Color_Extensions.swift in Sources */,
+				39F753862B2D2EE5005BCE86 /* CurrencyError.swift in Sources */,
+				39F753A62B2E295F005BCE86 /* CurrencyToConvert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394D6EA42B2B8D2E0041B56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F753C22B2FE534005BCE86 /* CurrencyRatesTests.swift in Sources */,
+				39F753C42B2FEFAA005BCE86 /* AvailableCurrenciesProviderTests.swift in Sources */,
+				39F753C62B30060B005BCE86 /* ContentViewModelTests.swift in Sources */,
+				394D6EC32B2BC89B0041B56E /* StringIsValidNumberTests.swift in Sources */,
+				39F753BB2B2FB7E0005BCE86 /* CurrencyConverterTests.swift in Sources */,
+				39F753BD2B2FD3A0005BCE86 /* URLSessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394D6EAD2B2B8D2E0041B56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394D6E8D2B2AC9960041B56E /* PayPayCodingChallenge_ColinEvans */;
+			targetProxy = 394D6EAC2B2B8D2E0041B56E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		394D6E9A2B2AC9980041B56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		394D6E9B2B2AC9980041B56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394D6E9D2B2AC9980041B56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394D6EA22B2B87C70041B56E /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PayPayCodingChallenge_ColinEvans/Preview Content\"";
+				DEVELOPMENT_TEAM = J4WNCMKS3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PayPayCodingChallenge-ColinEvans-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cnevans.96.PayPayCodingChallenge-ColinEvans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394D6E9E2B2AC9980041B56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PayPayCodingChallenge_ColinEvans/Preview Content\"";
+				DEVELOPMENT_TEAM = J4WNCMKS3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PayPayCodingChallenge-ColinEvans-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cnevans.96.PayPayCodingChallenge-ColinEvans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		394D6EAF2B2B8D2E0041B56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4WNCMKS3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cnevans.96.PayPayCodingChallenge-ColinEvansTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPayCodingChallenge_ColinEvans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPayCodingChallenge_ColinEvans";
+			};
+			name = Debug;
+		};
+		394D6EB02B2B8D2E0041B56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J4WNCMKS3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cnevans.96.PayPayCodingChallenge-ColinEvansTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPayCodingChallenge_ColinEvans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PayPayCodingChallenge_ColinEvans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394D6E892B2AC9960041B56E /* Build configuration list for PBXProject "PayPayCodingChallenge_ColinEvans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D6E9A2B2AC9980041B56E /* Debug */,
+				394D6E9B2B2AC9980041B56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394D6E9C2B2AC9980041B56E /* Build configuration list for PBXNativeTarget "PayPayCodingChallenge_ColinEvans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D6E9D2B2AC9980041B56E /* Debug */,
+				394D6E9E2B2AC9980041B56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394D6EAE2B2B8D2E0041B56E /* Build configuration list for PBXNativeTarget "PayPayCodingChallenge_ColinEvansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394D6EAF2B2B8D2E0041B56E /* Debug */,
+				394D6EB02B2B8D2E0041B56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39F753BE2B2FD4A4005BCE86 /* XCRemoteSwiftPackageReference "Mocker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WeTransfer/Mocker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39F753BF2B2FD4A4005BCE86 /* Mocker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39F753BE2B2FD4A4005BCE86 /* XCRemoteSwiftPackageReference "Mocker" */;
+			productName = Mocker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 394D6E862B2AC9960041B56E /* Project object */;
+}
